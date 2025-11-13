@@ -3,10 +3,19 @@
     font-weight: 700;
 }
 
+/* Set all hero text color */
+.hero {
+    color: #FFEBD4;
+}
+
+/* Use Handlee for the hero heading */
+.hero h1 {
+    font-family: 'Handlee', cursive;
+}
 
 /* Hero background: responsive, covers entire section */
 .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../images/hero-image.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/hero-image.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
