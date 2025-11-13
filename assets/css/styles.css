@@ -1,0 +1,12 @@
+
+
+
+
+
+
+
+
+  /* Make the active nav link bolder */
+.navbar .nav-link.active {
+    font-weight: 700;
+}
