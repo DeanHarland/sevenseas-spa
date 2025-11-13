@@ -1,12 +1,29 @@
-
-
-
-
-
-
-
-
-  /* Make the active nav link bolder */
+/* Make the active nav link bolder */
 .navbar .nav-link.active {
     font-weight: 700;
+}
+
+
+/* Hero background: responsive, covers entire section */
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../images/hero-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 75vh;
+}
+
+/* optional: ensure text is readable on top of image */
+.hero .w-100 {
+    background: rgba(255, 255, 255, 0.30);
+    /* light translucent overlay */
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 576px) {
+    .hero .w-100 {
+        background: rgba(255, 255, 255, 0.45);
+        padding: 1.25rem;
+    }
 }
